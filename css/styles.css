@@ -1,5 +1,6 @@
 /***********Header*********/
 
+/********Black Line*********/
 .header-black-line{
     display: flex;
     justify-content: flex-end;
@@ -24,4 +25,52 @@
 #arrow{
     height: 14px;
     margin-left: 10px;
+}
+
+
+/*****************Header Rest**********/
+.WKND-logo{
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header{
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.header-right-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 710px;
+}
+
+header ul{
+    width: 440px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10vh;
+}
+
+.search-bar{
+    width: 30vh;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#EBEBEB;
+    border:1px solid #95989A;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.search-bar p{
+    opacity: 50%;
 }
