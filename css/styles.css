@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.black-line-p{
+    font-size: 14px;
+}
+
 #human{
     height: 21px;
     margin-left: 10px;
