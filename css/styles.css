@@ -14,6 +14,7 @@
 
 .black-line-p{
     font-size: 14px;
+    margin-left: 10px;
 }
 
 #human{
@@ -257,4 +258,73 @@ footer ul{
     color: #909090;
     margin-left: 100px;
     margin-top: 50px;
+}
+
+
+
+/***************About US*********************/
+.about-us{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.black{
+    background-color: black;
+}
+
+.About-logo{
+    font-size: 40px;
+    font-family: "source seryf pro";
+    margin-bottom: 40px;
+    display: table;
+    width: 286px;  
+    margin-top: 50px;
+}
+
+.About-logo:after {
+    border-bottom: 2px solid #FFE900;
+    content: '';
+    display: block;
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+.portrai{
+    border-radius: 50%;
+}
+
+.name-p{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Source Serife Pro';
+}
+
+.profession-p{
+    font-size: 10px;
+    font-weight: 400;
+    color: #909090;
+    /* word-spacing: 5px; */
+    width: 126px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.portrait-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+    margin-right: 100px;
+    width: 177px;
+    height: 333px;
+
+}
+
+.big-cont{
+    display: flex;
+    justify-content: ;
+}
+
+.first{
+    margin-left: 50px;
 }
