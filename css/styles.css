@@ -1,0 +1,27 @@
+/***********Header*********/
+
+.header-black-line{
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    color: #909090;
+    background-color: black;
+    word-spacing: 10px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+#human{
+    height: 21px;
+    margin-left: 10px;
+}
+
+#flag{
+    height: 14px;
+    margin-left: 10px;
+}
+
+#arrow{
+    height: 14px;
+    margin-left: 10px;
+}
