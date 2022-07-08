@@ -328,3 +328,10 @@ footer ul{
 .first{
     margin-left: 50px;
 }
+
+
+/**************Hover***********/
+li:hover{
+    background-color: #FFE900;
+    padding: 10px;
+}
