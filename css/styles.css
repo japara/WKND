@@ -220,9 +220,10 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding-top: 50px;
+    margin-top: 100px;
 }
 
 footer ul{
@@ -246,4 +247,10 @@ footer ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.copyright{
+    color: #909090;
+    margin-left: 100px;
+    margin-top: 50px;
 }
