@@ -37,6 +37,7 @@
 
 .header{
     padding-top: 10vh;
+    padding-bottom: 10vh;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -73,4 +74,176 @@ header ul{
 
 .search-bar p{
     opacity: 50%;
+}
+
+
+/********** FAQ Main Page***********/
+
+.FAQ{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.FAQ-logo{
+    font-size: 40px;
+    font-family: "source seryf pro";
+    margin-bottom: 30px;
+}
+
+.page-cont{
+    width: 716px;
+}
+.image-txt{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 716px;
+    font-family: 'source sans pro';
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.pull-down-row{
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#minus-sign{
+    height: 2px;
+}
+
+#row-txt{
+    font-size: 14px;
+    font-family: 'source sans pro';
+    line-height: 25px;
+    margin-bottom: 25px;
+
+}
+
+.closed-row{
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+}
+
+.credentials-cont{
+    width: 256px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.credential-header{
+    font-size: 24px;
+    font-family: 'Source Serif Pro';
+    margin-bottom: 50px;
+}
+
+.credentials-txt{
+    width: 256px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/***********Lower FAQ**********/
+.FAQ-lower{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.line{
+    margin: 0 auto;
+    height: 2px;
+    width: 1184px;
+    background-color: #EBEBEB;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lower-cont{
+    margin: 0 auto;
+    width: 1084px;
+    display: flex;
+    background-color: #F7F7F7;
+}
+
+.lower-header{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.lower-small-p{
+    font-size:14px;
+    margin-top: 25px;
+}
+
+#email{
+    width: 236px;
+    height: 48px;
+    background-color: #EBEBEB;
+    opacity: 50%;
+    padding-left: 10px;
+    margin-top: 25px;
+    border: none;
+}
+
+#lower-img{
+    margin-right: 30px;
+}
+
+.sign-up-btn{
+    background-color: black;
+    color: white;
+    width: 133px;
+    height: 48px;
+    font-size: 14px;
+}
+
+/*****************Footer************/
+footer{
+    background-color: black;
+    height: 234px;
+}
+.white{
+    color:white;
+}
+
+.footer-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+footer ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+}
+
+.footer-right-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    align-items: center;
+}
+
+.logo-cont{
+    width: 144px;
+    height: 48px;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
