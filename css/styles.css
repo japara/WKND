@@ -331,7 +331,7 @@ footer ul{
 
 
 /**************Hover***********/
-li:hover{
+header li:hover{
     background-color: #FFE900;
     padding: 10px;
 }
